@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>RCC Service</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="reversa.css" />
+    <script src="reversa.js"></script>
+  </head>
+  <body>
+    <header id="topo">
+      <div>
+        <div class="logo">
+          <h1>RCC Service</h1>
+        </div>
+        <form id="assinatura">
+          <input type="text" placeholder="Sua assinatura" class="ass" />
+          <input type="submit" value="confirmar" class="confirmar" />
+        </form>
+      </div>
+    </header>
+    <nav id="menu-h">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../link-uteis.html">Link Uteis</a></li>
+        <li><a href="../../1p-site.html">1P Site</a></li>
+        <li><a href="../../3p-site.html">3P Site</a></li>
+        <li><a href="../../priorizacao.html">Priorizacao</a></li>
+        <li><a href="../../fabricantes.html">Fabricantes</a></li>
+      </ul>
+    </nav>
+    <section id="fundo">
+      <div class="form-grid">
+        <select onclick="consulta()" name="consulta" id="consulta">
+          <option value="93">93</option>
+          <option value="204">204</option>
+          <option value="549">549</option>
+          <option value="1859">1859</option>
+          <option value="1869">1869</option>
+          <option value="1879">1879</option>
+          <option value="1899">1899</option>
+          <option value="2099">2099</option>
+          <option value="2299">2299</option>
+          <option value="2399">2399</option>
+          <option value="2489">2489</option>
+          <option value="2989">2989</option>
+          <option value="5589">5589</option>
+        </select>
+      </div>
+      <div id="email"></div>
+    </section>
+    <footer>
+      <div id="rodape">®Desenvolvido por Rafael Cesar Cintra</div>
+    </footer>
+  </body>
+</html>
